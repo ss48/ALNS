@@ -1,26 +1,9 @@
-![ALNS logo](docs/source/assets/images/logo.svg)
-
-[![PyPI version](https://badge.fury.io/py/alns.svg)](https://badge.fury.io/py/alns)
-[![ALNS](https://github.com/N-Wouda/ALNS/actions/workflows/alns.yaml/badge.svg)](https://github.com/N-Wouda/ALNS/actions/workflows/alns.yaml)
-[![Documentation Status](https://readthedocs.org/projects/alns/badge/?version=latest)](https://alns.readthedocs.io/en/latest/?badge=latest)
-[![codecov](https://codecov.io/gh/N-Wouda/ALNS/branch/master/graph/badge.svg)](https://codecov.io/gh/N-Wouda/ALNS)
-[![DOI](https://joss.theoj.org/papers/10.21105/joss.05028/status.svg)](https://doi.org/10.21105/joss.05028)
-
-``alns`` is a general, well-documented and tested implementation of the adaptive
-large neighbourhood search (ALNS) metaheuristic in Python. ALNS is an algorithm
-that can be used to solve difficult combinatorial optimisation problems. The
-algorithm begins with an initial solution. Then the algorithm iterates until a
-stopping criterion is met. In each iteration, a destroy and repair operator are
-selected, which transform the current solution into a candidate solution. This
-candidate solution is then evaluated by an acceptance criterion, and the
-operator selection scheme is updated based on the evaluation outcome.
-
 ### Installing `alns`
 
 The `alns` package depends on `numpy` and `matplotlib`. It may be installed in the
 usual way as
 ```
-pip install alns
+git clone https://github.com/ss48/ALNS.git
 ```
 Additionally, to enable more advanced operator selection schemes using 
 multi-armed bandit algorithms, `alns` may be installed with the optional 
