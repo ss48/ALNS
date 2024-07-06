@@ -4,12 +4,12 @@ The `alns` package depends on `numpy` and `matplotlib`. It may be installed in t
 usual way as
 ```
 git clone https://github.com/ss48/ALNS.git
-run the following scripts: for The travelling salesman problem
+run the following script for The travelling salesman problem
 python3 Trav_SalMan.py
 or
 python3 Trav_SalMan1.py
 
-run the following scripts: for The capacitated vehicle routing problem
+run the following script for The capacitated vehicle routing problem
 
 python3 Cap_Veh_Routing.py
 ```
