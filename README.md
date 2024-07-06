@@ -8,11 +8,11 @@ run the following scripts: for The travelling salesman problem
 python3 Trav_SalMan.py
 or
 python3 Trav_SalMan1.py
-```
 
 run the following scripts: for The capacitated vehicle routing problem
 
 python3 Cap_Veh_Routing.py
+```
 
 Additionally, to enable more advanced operator selection schemes using 
 multi-armed bandit algorithms, `alns` may be installed with the optional 
