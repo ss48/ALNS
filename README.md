@@ -4,6 +4,10 @@ The `alns` package depends on `numpy` and `matplotlib`. It may be installed in t
 usual way as
 ```
 git clone https://github.com/ss48/ALNS.git
+run the following scripts:
+python3 Trav_SalMan.py
+or
+python3 Trav_SalMan1.py
 ```
 Additionally, to enable more advanced operator selection schemes using 
 multi-armed bandit algorithms, `alns` may be installed with the optional 
